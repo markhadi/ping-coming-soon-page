@@ -8,7 +8,8 @@ form.addEventListener("submit", (e) => {
 
   if (input.value == "") {
     alertMsg();
-    return (alertInfo.innerHTML = "Please fill in your email address.");
+    return (alertInfo.innerHTML =
+      "Whoops! It looks like you forgot to add your email");
   }
 
   if (!input.value.match(pattern)) {
